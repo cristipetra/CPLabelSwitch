@@ -1,9 +1,9 @@
 ![LabeSwitch](https://github.com/Tobaloidee/LabelSwitch/blob/master/logo/logotype-a-05.png)
 
-[![CI Status](http://img.shields.io/travis/Cookiezby/LabelSwitch.svg?style=flat)](https://travis-ci.org/Cookiezby/LabelSwitch)
-[![Version](https://img.shields.io/cocoapods/v/LabelSwitch.svg?style=flat)](http://cocoapods.org/pods/LabelSwitch)
-[![License](https://img.shields.io/cocoapods/l/LabelSwitch.svg?style=flat)](http://cocoapods.org/pods/LabelSwitch)
-[![Platform](https://img.shields.io/cocoapods/p/LabelSwitch.svg?style=flat)](http://cocoapods.org/pods/LabelSwitch)
+[![CI Status](https://img.shields.io/travis/cristipetra/CPLabelSwitch.svg?style=flat)](https://travis-ci.org/cristipetra/CPLabelSwitch)
+[![Version](https://img.shields.io/cocoapods/v/CPLabelSwitch.svg?style=flat)](https://cocoapods.org/pods/CPLabelSwitch)
+[![License](https://img.shields.io/cocoapods/l/CPLabelSwitch.svg?style=flat)](https://cocoapods.org/pods/CPLabelSwitch)
+[![Platform](https://img.shields.io/cocoapods/p/CPLabelSwitch.svg?style=flat)](https://cocoapods.org/pods/CPLabelSwitch)
 
 
 ## Installation
