@@ -18,4 +18,3 @@ struct LabelSwitchUIState {
     var leftPartState  = LabelSwitchPartState()
     var rightPartState = LabelSwitchPartState()
 }
-

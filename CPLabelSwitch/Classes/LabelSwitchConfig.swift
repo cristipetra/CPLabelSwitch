@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 
-
 public struct LabelSwitchConfig {
     struct GradientBack {
         var colors: [CGColor]
@@ -55,7 +54,3 @@ public enum LabelSwitchState {
     case L
     case R
 }
-
-
-
-

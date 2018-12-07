@@ -13,6 +13,7 @@ public protocol  LabelSwitchDelegate : class {
 }
 
 private class LabelSwitchPart {
+    
     let label: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
@@ -57,7 +58,9 @@ private class LabelSwitchPart {
         mask.frame = state.backMaskFrame
         back.frame = state.backMaskFrame
     }
+
 }
+
 
 @IBDesignable public class LabelSwitch: UIView {
     
@@ -196,7 +199,7 @@ private class LabelSwitchPart {
         diameter = 20
         circleView.layer.cornerRadius = diameter / 2
         circleView.layer.shadowRadius = bounds.height * 0.05
-        var circleSize = CGSize(width: diameter, height: diameter)
+        let circleSize = CGSize(width: diameter, height: diameter)
         
         stateL.circleFrame = CGRect(origin: CGPoint(x: circlePadding, y: (bounds.height - diameter) / 2),
                                     size: circleSize)
@@ -213,7 +216,7 @@ private class LabelSwitchPart {
         diameter = 20
         circleView.layer.cornerRadius = diameter / 2
         circleView.layer.shadowRadius = bounds.height * 0.05
-        var circleSize = CGSize(width: diameter, height: diameter)
+        let circleSize = CGSize(width: diameter, height: diameter)
         
         stateL.circleFrame = CGRect(origin: CGPoint(x: circlePadding, y: circlePadding),
                                     size: circleSize)
@@ -367,4 +370,3 @@ private class LabelSwitchPart {
         addConstraint(heightLayout!)
     }
 }
-
