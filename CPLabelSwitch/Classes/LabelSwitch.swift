@@ -144,6 +144,10 @@ private class LabelSwitchPart {
         }
     }
     
+    public func updateSize(width: Int, height: Int) {
+        calculatedSize = CGSize(width: width, height: height)
+    }
+    
     private var calculatedSize: CGSize = .zero {
         didSet {
             bounds = CGRect(origin: .zero, size: calculatedSize)

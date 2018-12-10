@@ -9,6 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CPLabelSwitch'
   s.version          = '0.1.1'
+  s.swift_version    = '4.2'
   s.summary          = 'Custom switch'
 
 # This description is used to generate tags and improve search results.
